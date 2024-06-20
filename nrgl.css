@@ -100,13 +100,12 @@ section {
 }
 @media screen and (max-width: 768px) {
   .mirror {
-    width: 40vh;
-    height: 50vh;
+    width: 220px;
+    height: 330px;
   }
   .items-container{
-    height: 40vh;
-    width: 60vh;
-    left: 5%;
+    height: 300px;
+    width: 200px;
   }
   .main-container{
 	height: 90vh;
@@ -122,6 +121,31 @@ section {
     size: 5px;
   }
 }
+@media screen and (max-width: 1024px) and (min-width: 768px) {
+    .mirror {
+      width: 50vh;
+      height: 50vh;
+    }
+    .items-container{
+      height: 40vh;
+      width: 35vh;
+      left: 1%;
+    }
+    .main-container{
+      height: 90vh;
+    }
+      
+    
+    .text{
+      padding: 40px 0 0 0;
+      font-size: 1px;
+    }
+    .text--right{
+      font-size: 5px;
+      size: 5px;
+    }
+  }
+
  .text {
 	 font-family: 'Playfair Display', serif;
 	 color: rgb(214, 197, 55);
