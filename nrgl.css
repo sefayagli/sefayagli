@@ -100,12 +100,13 @@ section {
 }
 @media screen and (max-width: 768px) {
   .mirror {
-    width: 60vw;
+    width: 40vh;
     height: 50vh;
   }
   .items-container{
-    height: 35vh;
-    width: 45vw;
+    height: 45vh;
+    width: 50vh;
+    left: 5%;
   }
   .main-container{
 	height: 90vh;
