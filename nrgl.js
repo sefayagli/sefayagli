@@ -37,4 +37,12 @@ function autoChangeMessage() {
 setInterval(autoChangeMessage, 5000);
 
 // Sayfa yüklendiğinde ilk mesajı göster
-window.onload = autoChangeMessage;
+window.onload = function() {
+    autoChangeMessage();
+    
+    // Loader'ı gizle ve içeriği göster
+    const loader = document.getElementById('loader');
+    const content = document.getElementById('content');
+    loader.style.display = 'none';
+    content.style.display = 'block';
+}
