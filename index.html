@@ -3,118 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Dünyamın En Güzel Kadını</title>
-    <link rel="stylesheet" href="nrgl.css">
+    <title>Sayfa Geçişleri</title>
+    <link rel="stylesheet" href="css.css">
 </head>
-<button onclick="topFunction()" id="myBtn" title="Go to top">Yukarı</button>
-
-<div id="loader">
-  <div class="spinner"></div>
-  <p>Birazcık Bekleteceğim Bitanem...</p>
-</div>
-<section id="person">
-    <main class="main-container">
-        <!--  Inspired by a tutorial by Mary Lou https://tympanus.net/codrops/2020/03/11/background-scale-hover-effect-with-css-clip-path/ 
-      -->
-        <div class="text text--left" style="font-size: 5vw;">Ayna ayna söyle bana!</div>
-        <div class="items-container">
-          <div class="item item--forest">
-            <div class="item__screen item__screen--full"></div>
-            <div class="item__screen item__screen--clip"></div>
-          </div>
-      
-          <div class="item item--girl">
-            <div class="item__screen item__screen--full"></div>
-            <div class="item__screen item__screen--clip"></div>
-          </div>
-        </div>
-        
-         <img class="mirror" src="https://images2.imgbox.com/f5/2e/gzBTKoLY_o.png" alt="mirror"/>
-        
-        <div class="text text--right" style="font-size: 5vw;">Nurgül'den güzeli var mı bu dünyada?</div>
-      </div>
-
-
-      </main>
-</section>
-
-<div class="parallax">
-<!--<section id="about2">-->
-  
-  
-  <div class="left" style="padding-top: 20vh;">
-    <div class="container">
-        <h1>NURGÜL;</h1>
-        <p id="autoMessage"></p>
-        <!--<button id="proposalButton" onclick="showProposal()">Lütfen Tıklayınız Güzel Hanımefendi</button>
-        <p id="proposal"></p>-->
-        </div>
-        <!--
-    <a href="#about3">
-      <button class="button" style="vertical-align:middle"><span>Devam Et </span></button>
-    </a>-->
-  </div>
-</div>
-
-<!--
-<marquee behavior=alternate>ÇARPAN</marquee>
-
-<marquee scrollamount="3" height="50" width="100%" direction="UP">
-
-  WEBCEBİR.COM
-  
-  </marquee>
-
-  <marquee behavior="alternate" bgColor="red">WEBCEBİR.COM</marquee>
-
-
-  <marquee behavior=alternate bgcolor="#ff1000">
-
-    <img src="asdfas.jpg">
-    
-    <img src="ari.png">
-    
-    <img src="ari.png">
-    
-    </marquee>
-  -->
-
-<!--</section>-->
-</div>
-<section id="about3">
-  <div class="left" style="padding-top: 20vh;">
-    <div class="container">
-        <h1>NURGÜL;</h1>
-        <button id="proposalButton" onclick="showProposal()">İçeriği Görmek İçin Tıklayınız</button>
-        <p id="proposal"></p>
-        
-    </div>
-    </div>
-
-</section>
-<!--
-<div class="demo-delay-wrapper">
-  <div class="demo-delay"><p>aaaa</p></div>
-  <div class="demo-delay" style="left: 62vw;   transition-delay: .5s;">
-    <p>bbb</p></div>
-</div>-->
-
 
 <body>
-    <script src="nrgl.js"></script>
-
-<!--buton sayfa kaydırma
-<input type="button" onclick="asagiKaydir()" value="Kaydır" />
-
-    <script type="text/javascript">
-      function asagiKaydir()
-      {
-      window.scrollBy(0,2)
-      }
-    </script>
--->
-
+    <div class="container">
+        <div class="page" id="page1">
+            <main class="main-container">
+                <!--  Inspired by a tutorial by Mary Lou https://tympanus.net/codrops/2020/03/11/background-scale-hover-effect-with-css-clip-path/ 
+              -->
+                <div class="text text--left" style="font-size: 5vw;">Ayna ayna söyle bana!</div>
+                <div class="items-container">
+                  <div class="item item--forest">
+                    <div class="item__screen item__screen--full"></div>
+                    <div class="item__screen item__screen--clip"></div>
+                  </div>
+              
+                  <div class="item item--girl">
+                    <div class="item__screen item__screen--full"></div>
+                    <div class="item__screen item__screen--clip"></div>
+                  </div>
+                </div>
+                
+                 <img class="mirror" src="https://images2.imgbox.com/f5/2e/gzBTKoLY_o.png" alt="mirror"/>
+                
+                <div class="text text--right" style="font-size: 5vw;">Nurgül'den güzeli var mı bu dünyada?</div>
+        </div>
+        <div class="page" id="page2">
+            <div class="left" style="padding-top: 20vh;">
+                <div class="container1">
+                    <h1>NURGÜL;</h1>
+                    <p id="autoMessage"></p>
+                    </div>
+              </div>
+        </div>
+        <div class="page" id="page3">
+            <div class="container1">
+                <h1>NURGÜL;</h1>
+                <p id="autoMessage2"></p>
+                </div>
+          </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
 </body>
-
-
 </html>
