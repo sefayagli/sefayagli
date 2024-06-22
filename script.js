@@ -73,13 +73,6 @@ const messages2 = [
   "Seninle bir ömür geçirmek istiyorum. Benimle çıkar mısın?"
 ];
 
-function showProposal() {
-  const proposalElement = document.getElementById('proposal');
-  const proposalButton = document.getElementById('proposalButton');
-  const randomIndex = Math.floor(Math.random() * proposals.length);
-  proposalElement.textContent = proposals[randomIndex];
-  proposalButton.textContent = "Yine Tıklayınız...";
-}
 
 function autoChangeMessage() {
   const autoMessageElement = document.getElementById('autoMessage');
